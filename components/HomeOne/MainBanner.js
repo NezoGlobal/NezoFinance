@@ -60,7 +60,7 @@ class MainBanner extends Component {
                                     <h1>Nezo Finance</h1>
                                     <p>The all-in-one DeFi ecosystem with multiple highly demanded features from one interface.</p>
                                     <Link href="#about">
-                                        <a className="btn btn-primary">
+                                        <a className="btn nezo-btn">
                                             <i className="fas fa-rocket pr-2"></i>Get started</a>
                                     </Link>
                                     <div className='pt-70'>

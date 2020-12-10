@@ -11,11 +11,11 @@ class AccountCreateArea extends Component {
                             <h2>Designed with simplicity in mind</h2>
                             <p>Staking will be available soon.</p>
                         </div>
-                        
+
                         <div className="col-lg-4">
                             <div className="create-account">
                                     <Link href="/staking">
-                                        <a className="btn btn-primary">
+                                        <a className="btn nezo-btn">
                                             <i className="fas fa-poll pr-2"></i>View pools</a>
                                     </Link>
                             </div>

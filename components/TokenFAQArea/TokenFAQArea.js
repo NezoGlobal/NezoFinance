@@ -15,7 +15,7 @@ class TokenFAQArea extends Component {
                         <div className="col-lg-4">
                             <div className="create-account">
                                 <Link href="/faq">
-                                    <a className="btn btn-primary">
+                                    <a className="btn nezo-btn">
                                         <i className="fas fa-question pr-2"></i>View FAQ</a>
                                 </Link>
                             </div>

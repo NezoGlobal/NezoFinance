@@ -15,7 +15,7 @@ class NezoDex extends Component {
                                 <p>Nezo DEX is a non-custodial decentralized exchange for crypto assets that aggregates liquidity from centralized and decentralized exchanges.</p>
                                 <p>The platform will boast fast transactions, low fees, and will allow limit orders and margin trading, among its many other features. More details about Nezo DEX will be revealed closer to its release.</p>
                                     <Link href="/coming-soon">
-                                        <a className="btn btn-primary">
+                                        <a className="btn nezo-btn">
                                             <i className="far fa-chart-bar pr-2"></i>Launch</a>
                                     </Link>
                             </div>
@@ -35,7 +35,7 @@ class NezoDex extends Component {
                                     </ReactWOW>
                                 </div>
 
-                                
+
                             </div>
                         </div>
                     </div>

@@ -139,7 +139,7 @@ class Timeline extends Component {
                                                         }
                                                         <div className="date">{date}</div>
                                                         <p>{description}</p>
-                                                        <a className="btn btn-primary" href={link}>More</a>
+                                                        <a className="btn nezo-btn" href={link}>More</a>
                                                     </div>
                                                 </div>
 
@@ -169,7 +169,7 @@ class Timeline extends Component {
                                                     }
                                                     <div className={image && "txt-wrap"}>
                                                         <p>{description}</p>
-                                                        <a className="btn btn-primary" href={link}>More</a>
+                                                        <a className="btn nezo-btn" href={link}>More</a>
                                                     </div>
                                                 </div>
                                             </div>

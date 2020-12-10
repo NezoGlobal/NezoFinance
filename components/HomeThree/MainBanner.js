@@ -14,7 +14,7 @@ class MainBanner extends Component {
                                         <h1>Easy, fee-free banking for entrepreneurs</h1>
                                         <p>Get the financial tools and insights to start, build, and grow your business.</p>
                                         <Link href="#">
-                                            <a className="btn btn-primary">Learn More</a>
+                                            <a className="btn nezo-btn">Learn More</a>
                                         </Link>
                                     </div>
                                 </div>
@@ -64,7 +64,7 @@ class MainBanner extends Component {
                                                 <span>You could save vs banks <strong>1,010.32 USD</strong></span>
                                             </div>
 
-                                            <button type="submit" className="btn btn-primary">Get Started</button>
+                                            <button type="submit" className="btn nezo-btn">Get Started</button>
 
                                             <div className="terms-info">
                                                 <p>By clicking continue, I agree with <Link href="#"><a>Terms & Policy</a></Link></p>

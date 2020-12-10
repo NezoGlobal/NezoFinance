@@ -87,6 +87,26 @@ a:hover {
   text-decoration: none;
 }
 
+/*.nezo-btn {*/
+/*  padding: 9px 16px;*/
+/*  color: #ffffff;*/
+/*  background: -webkit-gradient(linear, left top, right top, from(#00a651), to(#8dc63f));*/
+/*  background: linear-gradient(90deg, #00a651 0%, #8dc63f 100%);*/
+/*  border-radius: 30px;*/
+/*  -webkit-transition: 0.25s;*/
+/*  transition: 0.25s;*/
+/*}*/
+
+/*.nezo-btn-hover {*/
+/*  padding: 9px 16px;*/
+/*  color: #ffffff;*/
+/*  background: -webkit-gradient(linear, left top, right top, from(#00a651), to(#8dc63f));*/
+/*  background: linear-gradient(135deg, #8dc63f 0%, #00a651 100%);*/
+/*  border-radius: 30px;*/
+/*  -webkit-transition: 0.25s;*/
+/*  transition: 0.25s;*/
+/*}*/
+
 button {
   outline: 0 !important;
 }
@@ -214,7 +234,7 @@ p:last-child {
 
 
 
-/*btn btn-primary*/
+/*btn nezo-btn*/
 
 .btn {
   font-weight: 500;
@@ -278,12 +298,12 @@ p:last-child {
   opacity: 1;
 }
 
-.btn-primary {
+.nezo-btn {
   background-color: transparent;
   color: #ffffff;
 }
 
-.btn-primary::before {
+.nezo-btn::before {
   content: '';
   position: absolute;
   left: 0;
@@ -298,7 +318,7 @@ p:last-child {
   transition: 0.25s;
 }
 
-.btn-primary::after {
+.nezo-btn::after {
   content: '';
   position: absolute;
   left: 0;
@@ -314,19 +334,19 @@ p:last-child {
   visibility: hidden;
 }
 
-.btn-primary:hover, .btn-primary:focus {
+.nezo-btn:hover, .nezo-btn:focus {
   background-color: transparent !important;
   color: #ffffff !important;
   -webkit-box-shadow: unset !important;
           box-shadow: unset !important;
 }
 
-.btn-primary:hover::before, .btn-primary:focus::before {
+.nezo-btn:hover::before, .nezo-btn:focus::before {
   opacity: 0;
   visibility: hidden;
 }
 
-.btn-primary:hover::after, .btn-primary:focus::after {
+.nezo-btn:hover::after, .nezo-btn:focus::after {
   opacity: 1;
   visibility: visible;
 }
@@ -1693,7 +1713,7 @@ Main Banner Area CSS
   height: 75px;
   color: #00a651;
   -webkit-box-shadow: 0px 0px 0px 2px #00a651;
-          box-shadow: 0px 0px 0px 2px #00a651; 
+          box-shadow: 0px 0px 0px 2px #00a651;
   margin-right: 15px;
   margin-top: 15px;
   padding-top: 12px;
@@ -1864,7 +1884,7 @@ Featured Boxes Area CSS
 }*/
 
 .single-featured-box {
-  
+
   text-align: center;
   position: relative;
   padding: 115px 25px 40px 25px;
@@ -1963,9 +1983,9 @@ Featured Boxes Area CSS
 
 
 .single-featured-box .icon.color-gradient {
-  
-	background:-moz-linear-gradient(top, #39b54a 0%, #006838 100%); 
-    background: -webkit-linear-gradient(top, #39b54a 0%,#006838 100%); 
+
+	background:-moz-linear-gradient(top, #39b54a 0%, #006838 100%);
+    background: -webkit-linear-gradient(top, #39b54a 0%,#006838 100%);
     background: linear-gradient(to bottom, #39b54a 0%,#006838 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -2121,11 +2141,11 @@ Services Area CSS
 }
 
 .services-area-mtb {
-margin-top: 80px; 
+margin-top: 80px;
 }
 
 .services-area-pt40 {
-  padding-top: 40px; 
+  padding-top: 40px;
   }
 
 .contract-address {
@@ -3509,15 +3529,15 @@ Pricing Area CSS
   font-size: 13px;
 }
 
-.single-pricing-box .buy-btn .btn-primary {
+.single-pricing-box .buy-btn .nezo-btn {
   border-radius: 30px;
 }
 
-.single-pricing-box .buy-btn .btn-primary::after {
+.single-pricing-box .buy-btn .nezo-btn::after {
   border-radius: 30px;
 }
 
-.single-pricing-box .buy-btn .btn-primary::before {
+.single-pricing-box .buy-btn .nezo-btn::before {
   background: -webkit-gradient(linear, left bottom, right top, from(#a3a3a3), color-stop(#9a9a9a), color-stop(#909090), color-stop(#878787), to(#7e7e7e));
   background: linear-gradient(to right top, #a3a3a3, #9a9a9a, #909090, #878787, #7e7e7e);
   border-radius: 30px;
@@ -3567,7 +3587,7 @@ Pricing Area CSS
   border-radius: 15px 15px 0 0;
 }
 
-.single-pricing-box:hover .buy-btn .btn-primary::after {
+.single-pricing-box:hover .buy-btn .nezo-btn::after {
   background: -webkit-gradient(linear, left top, right top, from(#00a651), to(#8dc63f));
   background: linear-gradient(90deg, #00a651 0%, #8dc63f 100%);
   opacity: 1;
@@ -3588,7 +3608,7 @@ Pricing Area CSS
   border-radius: 15px 15px 0 0;
 }
 
-.single-pricing-box.active .buy-btn .btn-primary::before {
+.single-pricing-box.active .buy-btn .nezo-btn::before {
   background: -webkit-gradient(linear, left top, right top, from(#00a651), to(#8dc63f));
   background: linear-gradient(90deg, #00a651 0%, #8dc63f 100%);
   content: '';
@@ -3759,15 +3779,15 @@ Tiers Area CSS
   font-size: 13px;
 }
 
-.tiers-box .buy-btn .btn-primary {
+.tiers-box .buy-btn .nezo-btn {
   border-radius: 30px;
 }
 
-.tiers-box .buy-btn .btn-primary::after {
+.tiers-box .buy-btn .nezo-btn::after {
   border-radius: 30px;
 }
 
-.tiers-box .buy-btn .btn-primary::before {
+.tiers-box .buy-btn .nezo-btn::before {
   background: -webkit-gradient(linear, left bottom, right top, from(#a3a3a3), color-stop(#9a9a9a), color-stop(#909090), color-stop(#878787), to(#7e7e7e));
   background: linear-gradient(to right top, #a3a3a3, #9a9a9a, #909090, #878787, #7e7e7e);
   border-radius: 30px;
@@ -3818,7 +3838,7 @@ Tiers Area CSS
   border-radius: 15px 15px 0 0;
 }
 
-.tiers-box:hover .buy-btn .btn-primary::after {
+.tiers-box:hover .buy-btn .nezo-btn::after {
   background: -webkit-gradient(linear, left top, right top, from(#00a651), to(#8dc63f));
   background: linear-gradient(90deg, #00a651 0%, #8dc63f 100%);
   opacity: 1;
@@ -3839,7 +3859,7 @@ Tiers Area CSS
   border-radius: 15px 15px 0 0;
 }
 
-.tiers-box.active .buy-btn .btn-primary::before {
+.tiers-box.active .buy-btn .nezo-btn::before {
   background: -webkit-gradient(linear, left top, right top, from(#00a651), to(#8dc63f));
   background: linear-gradient(90deg, #00a651 0%, #8dc63f 100%);
   content: '';
@@ -4116,11 +4136,11 @@ Ready To Talk Area CSS
   margin-bottom: 20px;
 }
 
-.ready-to-talk-content .btn-primary::after {
+.ready-to-talk-content .nezo-btn::after {
   background: #ffffff;
 }
 
-.ready-to-talk-content .btn-primary:hover, .ready-to-talk-content .btn-primary:focus {
+.ready-to-talk-content .nezo-btn:hover, .ready-to-talk-content .nezo-btn:focus {
   color: #00a651 !important;
 }
 
@@ -4467,20 +4487,20 @@ Account Create Area CSS
   text-align: right;
 }
 
-.account-create-content .btn-primary {
+.account-create-content .nezo-btn {
   padding: 17px 30px;
   color: #333333 !important;
 }
 
-.account-create-content .btn-primary::before {
+.account-create-content .nezo-btn::before {
   background: #ffffff;
 }
 
-.account-create-content .btn-primary::after {
+.account-create-content .nezo-btn::after {
   background: linear-gradient(90deg, #ffffff 0%, #f1f2f2 100%);
 }
 
-.account-create-content .btn-primary:hover, .account-create-content .btn-primary:focus {
+.account-create-content .nezo-btn:hover, .account-create-content .nezo-btn:focus {
   color: #212529 !important;
 }
 

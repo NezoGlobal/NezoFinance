@@ -24,7 +24,7 @@ class MainBanner extends Component {
                                     <h1>Nezo Finance</h1>
                                     <p>The all-in-one DeFi ecosystem with multiple highly demanded features from one interface.</p>
                                     <Link href="#about">
-                                        <a className="btn btn-primary">
+                                        <a className="btn nezo-btn">
                                             <i className="fas fa-rocket pr-2"></i>Get started</a>
                                     </Link>
                                 </div>
@@ -36,7 +36,7 @@ class MainBanner extends Component {
                                                 <div className=" hero-image-banner">
                                                     <img src={require("../../images/banner-image/Banner_image-1.png")} alt="image" />
                                                 </div>
-                                            
+
 
                                         <div className="circle-image">
                                             <ReactWOW delay='1s' animation='fadeInUp'>
@@ -49,7 +49,7 @@ class MainBanner extends Component {
                     </div>
                 </div>
 
-                
+
             </React.Fragment>
         );
     }

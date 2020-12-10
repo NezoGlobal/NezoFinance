@@ -4,8 +4,8 @@ import StakingCardContent from '../Staking/StakingCardContent';
 
 class StakingCard extends Component {
     render() {
-        return (       
-            
+        return (
+
             <div className="pricing-area ptb-70">
                 <div className="container">
                     <div className="row">
@@ -30,26 +30,26 @@ class StakingCard extends Component {
                                 <div className="price">
                                     <span className="symbol"></span> 30% <span> ROI </span>
                                 </div>
- 
+
                                 <ul className="pricing-features">
                                     <li>
-                                        Pool size 2mil NZO 
-                                        <i className="fas fa-check"></i> 
+                                        Pool size 2mil NZO
+                                        <i className="fas fa-check"></i>
                                     </li>
                                     <li>
-                                        30% ROI 
-                                        <i className="fas fa-check"></i> 
+                                        30% ROI
+                                        <i className="fas fa-check"></i>
                                     </li>
                                     <li>
-                                        Maturity period 30 days 
-                                        <i className="fas fa-check"></i> 
+                                        Maturity period 30 days
+                                        <i className="fas fa-check"></i>
                                     </li>
                                     <li>
-                                        Daily rewards 
+                                        Daily rewards
                                         <i className="fa fa-check"></i>
                                     </li>
                                     <li>
-                                        Unstaking Fee 0% 
+                                        Unstaking Fee 0%
                                         <i className="fa fa-check"></i>
                                     </li>
 
@@ -57,7 +57,7 @@ class StakingCard extends Component {
 
                                 <div className="buy-btn">
                                     <Link href="/coming-soon">
-                                        <a className="btn btn-primary">Delegate</a>
+                                        <a className="btn nezo-btn">Delegate</a>
                                     </Link>
                                 </div>
                             </div>
@@ -73,26 +73,26 @@ class StakingCard extends Component {
                                 <div className="price">
                                     <span className="symbol"></span> 40% <span> ROI </span>
                                 </div>
- 
+
                                 <ul className="pricing-features">
                                     <li>
-                                        Pool size 1.5mil NZO 
-                                        <i className="fas fa-check"></i> 
-                                    </li>
-                                    <li>
-                                        40% ROI
-                                        <i className="fas fa-check"></i> 
-                                    </li>
-                                    <li>
-                                        Maturity period 90 days
-                                        <i className="fas fa-check"></i> 
-                                    </li>
-                                    <li>
-                                        Daily rewards 
+                                        Pool size 1.5mil NZO
                                         <i className="fas fa-check"></i>
                                     </li>
                                     <li>
-                                        Unstaking Fee 5% 
+                                        40% ROI
+                                        <i className="fas fa-check"></i>
+                                    </li>
+                                    <li>
+                                        Maturity period 90 days
+                                        <i className="fas fa-check"></i>
+                                    </li>
+                                    <li>
+                                        Daily rewards
+                                        <i className="fas fa-check"></i>
+                                    </li>
+                                    <li>
+                                        Unstaking Fee 5%
                                         <i className="fas fa-check"></i>
                                     </li>
 
@@ -100,7 +100,7 @@ class StakingCard extends Component {
 
                                 <div className="buy-btn">
                                     <Link href="/coming-soon">
-                                        <a className="btn btn-primary">Delegate</a>
+                                        <a className="btn nezo-btn">Delegate</a>
                                     </Link>
                                 </div>
                             </div>
@@ -119,23 +119,23 @@ class StakingCard extends Component {
 
                                 <ul className="pricing-features">
                                     <li>
-                                        Pool size 1mil NZO  
-                                        <i className="fas fa-check"></i> 
-                                    </li>
-                                    <li>
-                                        60% ROI 
-                                        <i className="fas fa-check"></i> 
-                                    </li>
-                                    <li>
-                                        Maturity period 180 days 
-                                        <i className="fas fa-check"></i> 
-                                    </li>
-                                    <li>
-                                        Daily rewards 
+                                        Pool size 1mil NZO
                                         <i className="fas fa-check"></i>
                                     </li>
                                     <li>
-                                        Unstaking Fee 10% 
+                                        60% ROI
+                                        <i className="fas fa-check"></i>
+                                    </li>
+                                    <li>
+                                        Maturity period 180 days
+                                        <i className="fas fa-check"></i>
+                                    </li>
+                                    <li>
+                                        Daily rewards
+                                        <i className="fas fa-check"></i>
+                                    </li>
+                                    <li>
+                                        Unstaking Fee 10%
                                         <i className="fas fa-check"></i>
                                     </li>
 
@@ -143,7 +143,7 @@ class StakingCard extends Component {
 
                                 <div className="buy-btn">
                                     <Link href="/coming-soon">
-                                        <a className="btn btn-primary">Delegate</a>
+                                        <a className="btn nezo-btn">Delegate</a>
                                     </Link>
                                 </div>
                             </div>
@@ -159,26 +159,26 @@ class StakingCard extends Component {
                                 <div className="price">
                                     <span className="symbol"></span> 85% <span>ROI</span>
                                 </div>
- 
+
                                 <ul className="pricing-features">
                                     <li>
-                                        Pool size 500k NZO 
-                                        <i className="fas fa-check"></i> 
-                                    </li>
-                                    <li>
-                                        85% ROI
-                                        <i className="fas fa-check"></i> 
-                                    </li>
-                                    <li>
-                                        Maturity period 365 days
-                                        <i className="fas fa-check"></i> 
-                                    </li>
-                                    <li>
-                                        Daily rewards 
+                                        Pool size 500k NZO
                                         <i className="fas fa-check"></i>
                                     </li>
                                     <li>
-                                        Unstaking Fee 15% 
+                                        85% ROI
+                                        <i className="fas fa-check"></i>
+                                    </li>
+                                    <li>
+                                        Maturity period 365 days
+                                        <i className="fas fa-check"></i>
+                                    </li>
+                                    <li>
+                                        Daily rewards
+                                        <i className="fas fa-check"></i>
+                                    </li>
+                                    <li>
+                                        Unstaking Fee 15%
                                         <i className="fas fa-check"></i>
                                     </li>
 
@@ -186,7 +186,7 @@ class StakingCard extends Component {
 
                                 <div className="buy-btn">
                                     <Link href="/coming-soon">
-                                        <a className="btn btn-primary">Delegate</a>
+                                        <a className="btn nezo-btn">Delegate</a>
                                     </Link>
                                 </div>
                             </div>
@@ -203,6 +203,6 @@ export default StakingCard;
 
 
 /*<li>
-Demo List 
+Demo List
 <i className="fa fa-ban"></i>
 </li> */

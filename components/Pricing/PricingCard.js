@@ -17,37 +17,37 @@ class PricingCard extends Component {
                                 <div className="price">
                                     <span className="symbol">$</span> 0 <span>/ monthly</span>
                                 </div>
- 
+
                                 <ul className="pricing-features">
                                     <li>
-                                        100 outgoing transfers/mo 
-                                        <i className="fas fa-check"></i> 
+                                        100 outgoing transfers/mo
+                                        <i className="fas fa-check"></i>
                                     </li>
                                     <li>
-                                        5 Luvion Users 
-                                        <i className="fas fa-check"></i> 
+                                        5 Luvion Users
+                                        <i className="fas fa-check"></i>
                                     </li>
                                     <li>
-                                        2 Business Mastercards 
-                                        <i className="fas fa-check"></i> 
+                                        2 Business Mastercards
+                                        <i className="fas fa-check"></i>
                                     </li>
                                     <li>
-                                        Premium Support 
+                                        Premium Support
                                         <i className="fa fa-ban"></i>
                                     </li>
                                     <li>
-                                        International payments 
+                                        International payments
                                         <i className="fa fa-ban"></i>
                                     </li>
                                     <li>
-                                        Accounting integrations 
+                                        Accounting integrations
                                         <i className="fa fa-ban"></i>
                                     </li>
                                 </ul>
 
                                 <div className="buy-btn">
                                     <Link href="#">
-                                        <a className="btn btn-primary">Choose this plan</a>
+                                        <a className="btn nezo-btn">Choose this plan</a>
                                     </Link>
                                 </div>
                             </div>
@@ -63,37 +63,37 @@ class PricingCard extends Component {
                                 <div className="price">
                                     <span className="symbol">$</span> 20 <span>/ monthly</span>
                                 </div>
- 
+
                                 <ul className="pricing-features">
                                     <li>
-                                        100 outgoing transfers/mo 
-                                        <i className="fas fa-check"></i> 
-                                    </li>
-                                    <li>
-                                        5 Luvion Users 
-                                        <i className="fas fa-check"></i> 
-                                    </li>
-                                    <li>
-                                        2 Business Mastercards 
-                                        <i className="fas fa-check"></i> 
-                                    </li>
-                                    <li>
-                                        Premium Support 
+                                        100 outgoing transfers/mo
                                         <i className="fas fa-check"></i>
                                     </li>
                                     <li>
-                                        International payments 
+                                        5 Luvion Users
                                         <i className="fas fa-check"></i>
                                     </li>
                                     <li>
-                                        Accounting integrations 
+                                        2 Business Mastercards
+                                        <i className="fas fa-check"></i>
+                                    </li>
+                                    <li>
+                                        Premium Support
+                                        <i className="fas fa-check"></i>
+                                    </li>
+                                    <li>
+                                        International payments
+                                        <i className="fas fa-check"></i>
+                                    </li>
+                                    <li>
+                                        Accounting integrations
                                         <i className="fa fa-ban"></i>
                                     </li>
                                 </ul>
 
                                 <div className="buy-btn">
                                     <Link href="#">
-                                        <a className="btn btn-primary">Choose this plan</a>
+                                        <a className="btn nezo-btn">Choose this plan</a>
                                     </Link>
                                 </div>
                             </div>
@@ -112,34 +112,34 @@ class PricingCard extends Component {
 
                                 <ul className="pricing-features">
                                     <li>
-                                        100 outgoing transfers/mo 
-                                        <i className="fas fa-check"></i> 
-                                    </li>
-                                    <li>
-                                        5 Luvion Users 
-                                        <i className="fas fa-check"></i> 
-                                    </li>
-                                    <li>
-                                        2 Business Mastercards 
-                                        <i className="fas fa-check"></i> 
-                                    </li>
-                                    <li>
-                                        Premium Support 
+                                        100 outgoing transfers/mo
                                         <i className="fas fa-check"></i>
                                     </li>
                                     <li>
-                                        International payments 
+                                        5 Luvion Users
                                         <i className="fas fa-check"></i>
                                     </li>
                                     <li>
-                                        Accounting integrations 
+                                        2 Business Mastercards
+                                        <i className="fas fa-check"></i>
+                                    </li>
+                                    <li>
+                                        Premium Support
+                                        <i className="fas fa-check"></i>
+                                    </li>
+                                    <li>
+                                        International payments
+                                        <i className="fas fa-check"></i>
+                                    </li>
+                                    <li>
+                                        Accounting integrations
                                         <i className="fas fa-check"></i>
                                     </li>
                                 </ul>
 
                                 <div className="buy-btn">
                                     <Link href="#">
-                                        <a className="btn btn-primary">Choose this plan</a>
+                                        <a className="btn nezo-btn">Choose this plan</a>
                                     </Link>
                                 </div>
                             </div>

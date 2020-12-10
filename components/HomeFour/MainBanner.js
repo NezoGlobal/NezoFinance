@@ -23,7 +23,7 @@ class MainBanner extends Component {
                                     <h1>Nezo Finance</h1>
                                     <p>The all-in-one DeFi ecosystem with multiple highly demanded features from one interface.</p>
                                     <Link href="#">
-                                        <a className="btn btn-primary">Create your account</a>
+                                        <a className="btn nezo-btn">Create your account</a>
                                     </Link>
                                 </div>
                             </div>
@@ -60,8 +60,8 @@ class MainBanner extends Component {
                                         <a
                                             onClick={e => {e.preventDefault(); this.openModal()}}
                                             className="video-btn"
-                                        > 
-                                            <i className="fas fa-play mr-2"></i> 
+                                        >
+                                            <i className="fas fa-play mr-2"></i>
                                             Play Video
                                         </a>
                                     </Link>
@@ -72,11 +72,11 @@ class MainBanner extends Component {
                 </div>
 
                 {/* If you want to change the video need to update below videoID */}
-                <ModalVideo 
-                    channel='youtube' 
-                    isOpen={this.state.isOpen} 
-                    videoId='szuchBiLrEM' 
-                    onClose={() => this.setState({isOpen: false})} 
+                <ModalVideo
+                    channel='youtube'
+                    isOpen={this.state.isOpen}
+                    videoId='szuchBiLrEM'
+                    onClose={() => this.setState({isOpen: false})}
                 />
             </React.Fragment>
         );

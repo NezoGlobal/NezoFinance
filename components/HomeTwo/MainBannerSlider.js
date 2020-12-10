@@ -33,9 +33,9 @@ class MainBannerSlider extends Component {
         display:false
     }
 
-    componentDidMount(){ 
+    componentDidMount(){
         this._isMounted = true;
-        this.setState({ display: true }) 
+        this.setState({ display: true })
     }
 
     componentWillUnmount() {
@@ -45,10 +45,10 @@ class MainBannerSlider extends Component {
     render() {
         return (
             <React.Fragment>
-                {this.state.display ? <OwlCarousel 
+                {this.state.display ? <OwlCarousel
                     className="main-banner-slider owl-carousel owl-theme"
                     {...options}
-                > 
+                >
                     {/* Slider item one */}
                     <div className="banner-slider-item item-bg-one">
                         <div className="d-table">
@@ -57,7 +57,7 @@ class MainBannerSlider extends Component {
                                     <VisibilitySensor>
                                         {({ isVisible }) => (
                                             <div className="main-banner-content">
-                                                <h1 
+                                                <h1
                                                     className={
                                                         isVisible ? "animated fadeInUp" : ''
                                                     }
@@ -65,7 +65,7 @@ class MainBannerSlider extends Component {
                                                     Save money in easy secure steps
                                                 </h1>
 
-                                                <p 
+                                                <p
                                                     className={
                                                         isVisible ? "animated zoomIn" : ''
                                                     }
@@ -73,13 +73,13 @@ class MainBannerSlider extends Component {
                                                     Get the financial tools and insights to start, build, and grow your business.
                                                 </p>
 
-                                                <div 
+                                                <div
                                                     className={
                                                         isVisible ? "animated zoomIn" : ''
                                                     }
                                                 >
                                                     <Link href="#">
-                                                        <a className="btn btn-primary">Get Started</a>
+                                                        <a className="btn nezo-btn">Get Started</a>
                                                     </Link>
                                                 </div>
                                             </div>
@@ -98,7 +98,7 @@ class MainBannerSlider extends Component {
                                     <VisibilitySensor>
                                         {({ isVisible }) => (
                                             <div className="main-banner-content">
-                                                <h1 
+                                                <h1
                                                     className={
                                                         isVisible ? "animated fadeInUp" : ''
                                                     }
@@ -106,21 +106,21 @@ class MainBannerSlider extends Component {
                                                     Celebrating a decade of powerful banking
                                                 </h1>
 
-                                                <p 
+                                                <p
                                                     className={
                                                         isVisible ? "animated zoomIn" : ''
                                                     }
                                                 >
                                                     Get the financial tools and insights to start, build, and grow your business.
                                                 </p>
-                                                
-                                                <div 
+
+                                                <div
                                                     className={
                                                         isVisible ? "animated zoomIn" : ''
                                                     }
                                                 >
                                                     <Link href="#">
-                                                        <a className="btn btn-primary">Get Started</a>
+                                                        <a className="btn nezo-btn">Get Started</a>
                                                     </Link>
                                                 </div>
                                             </div>
@@ -139,7 +139,7 @@ class MainBannerSlider extends Component {
                                     <VisibilitySensor>
                                         {({ isVisible }) => (
                                             <div className="main-banner-content">
-                                                <h1 
+                                                <h1
                                                     className={
                                                         isVisible ? "animated fadeInUp" : ''
                                                     }
@@ -147,26 +147,26 @@ class MainBannerSlider extends Component {
                                                     Easy free banking for entrepreneurs
                                                 </h1>
 
-                                                <p 
+                                                <p
                                                     className={
                                                         isVisible ? "animated zoomIn" : ''
                                                     }
                                                 >
                                                     Get the financial tools and insights to start, build, and grow your business.
                                                 </p>
-                                            
-                                                <div 
+
+                                                <div
                                                     className={
                                                         isVisible ? "animated zoomIn" : ''
                                                     }
                                                 >
                                                     <Link href="#">
-                                                        <a className="btn btn-primary">Get Started</a>
+                                                        <a className="btn nezo-btn">Get Started</a>
                                                     </Link>
                                                 </div>
                                             </div>
                                         )}
-                                    </VisibilitySensor>            
+                                    </VisibilitySensor>
                                 </div>
                             </div>
                         </div>

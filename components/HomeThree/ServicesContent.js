@@ -19,44 +19,44 @@ class ServicesContent extends Component {
                                     <ul className="features-list">
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Free plan available
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Full data privacy compliance
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 100% transparent costs
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Commitment-free
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Real-time spending overview
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Debit Mastercard included
                                             </span>
                                         </li>
                                     </ul>
 
                                     <Link href="#">
-                                        <a className="btn btn-primary">Apply Now</a>
+                                        <a className="btn nezo-btn">Apply Now</a>
                                     </Link>
                                 </div>
                             </div>
@@ -93,31 +93,31 @@ class ServicesContent extends Component {
                                     <ul className="features-list">
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Easy transfers
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Deposit checks instantly
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 A powerful open API
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Coverage around the world
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Business without borders
                                             </span>
                                         </li>
@@ -129,7 +129,7 @@ class ServicesContent extends Component {
                                     </ul>
 
                                     <Link href="#">
-                                        <a className="btn btn-primary">Apply Now</a>
+                                        <a className="btn nezo-btn">Apply Now</a>
                                     </Link>
                                 </div>
                             </div>
@@ -151,44 +151,44 @@ class ServicesContent extends Component {
                                     <ul className="features-list">
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Corporate Cards
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 International Payments
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Automated accounting
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Request Features
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Premium Support
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Direct Debit
                                             </span>
                                         </li>
                                     </ul>
 
                                     <Link href="#">
-                                        <a className="btn btn-primary">Apply Now</a>
+                                        <a className="btn nezo-btn">Apply Now</a>
                                     </Link>
                                 </div>
                             </div>
@@ -222,30 +222,30 @@ class ServicesContent extends Component {
                                     <ul className="features-list">
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Easy transfers
                                             </span>
                                         </li>
                                         <li>
-                                            <span><i className="flaticon-check-mark"></i> 
+                                            <span><i className="flaticon-check-mark"></i>
                                             Deposit checks instantly
                                         </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 A powerful open API
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Coverage around the world
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Business without borders
                                             </span>
                                         </li>
@@ -257,7 +257,7 @@ class ServicesContent extends Component {
                                     </ul>
 
                                     <Link href="#">
-                                        <a className="btn btn-primary">Apply Now</a>
+                                        <a className="btn nezo-btn">Apply Now</a>
                                     </Link>
                                 </div>
                             </div>

@@ -11,11 +11,11 @@ class JobsApplyArea extends Component {
                             <h2>Join our growing team of experts</h2>
                             <p>Do you think you have what it takes to bring value to our project?</p>
                         </div>
-                        
+
                         <div className="col-lg-4">
                             <div className="create-account">
                                 <Link href="/jobs">
-                                    <a className="btn btn-primary">Join Now</a>
+                                    <a className="btn nezo-btn">Join Now</a>
                                 </Link>
                             </div>
                         </div>

@@ -59,7 +59,7 @@ class ContentTabsCard extends Component {
                                         <li
                                             onClick={(e) => this.openTabSection(e, 'tab2')}
                                         >
-                                            
+
                                             <span><i className="fas fa-trophy pr-2"></i>Tiers</span>
                                         </li>
 
@@ -69,7 +69,7 @@ class ContentTabsCard extends Component {
                                             <span><i className="fas fa-coins pr-2"></i>Utility</span>
                                         </li>
                                     </ul>
-                                    
+
                                     {/* Tab content */}
                                     <div className="tab_content">
                                         {/* Tabs item */}
@@ -114,7 +114,7 @@ class ContentTabsCard extends Component {
 
                                         <div className="btn-mt-0">
                                             <Link href="/token">
-                                                <a className="btn btn-med btn-primary">Discover More</a>
+                                                <a className="btn btn-med nezo-btn">Discover More</a>
                                             </Link>
                                             </div>
                                         </div>
@@ -128,14 +128,14 @@ class ContentTabsCard extends Component {
 
                                             <TiersTabTable />
 
-                                            
+
 
                                             <div className="btn-mt-0">
                                             <Link href="/token">
-                                                <a className="btn btn-med  btn-primary">Discover More</a>
+                                                <a className="btn btn-med  nezo-btn">Discover More</a>
                                             </Link>
                                             </div>
-                                        
+
 
                                         </div>
 
@@ -174,12 +174,12 @@ class ContentTabsCard extends Component {
 
                                             </ul>
 
-                                            
 
-                                      
+
+
                                             <div className="btn-mt-0">
                                             <Link href="/token">
-                                                <a className="btn btn-med btn-primary">Discover More</a>
+                                                <a className="btn btn-med nezo-btn">Discover More</a>
                                             </Link>
                                             </div>
                                         </div>

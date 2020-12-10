@@ -44,7 +44,7 @@ class BlogCard extends Component {
                                     </h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
                                     <Link href="#">
-                                        <a className="btn btn-primary">Read More</a>
+                                        <a className="btn nezo-btn">Read More</a>
                                     </Link>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@ class BlogCard extends Component {
                                     </h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
                                     <Link href="#">
-                                        <a className="btn btn-primary">Read More</a>
+                                        <a className="btn nezo-btn">Read More</a>
                                     </Link>
                                 </div>
                             </div>
@@ -118,7 +118,7 @@ class BlogCard extends Component {
                                     </h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
                                     <Link href="#">
-                                        <a className="btn btn-primary">Read More</a>
+                                        <a className="btn nezo-btn">Read More</a>
                                     </Link>
                                 </div>
                             </div>

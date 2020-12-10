@@ -11,7 +11,7 @@ class AppDownloadContent extends Component {
                             <div className="app-image">
                                 <div className="main-image">
                                     <img src={require("../../images/NezoPad_home.png")} className="wow fadeInLeft" data-wow-delay="0.6s" alt="image" />
-                                    
+
                                 </div>
 
                                 <div className="main-mobile-image">
@@ -30,14 +30,14 @@ class AppDownloadContent extends Component {
                                 <div className="bar"></div>
                                 <p>You can run your token sale through a reliable low-cost solution, having full control over your OTC parameters. When a sale is created through Nezo Pad there is no trust involved as the sale smart contract is generated automatically based on the options set by the creator.</p>
 
-                                
+
 
                                 <p>Top Tier Holders of NZO Token have access to all Nezo Pad sales. Tier 1 Holders of NZO Token will also have an early access (24h) in the pre-sale rounds of incubated projects on Nezo Pad.</p>
 
                                 <div className="btn-box">
 
                                     <Link href="/coming-soon">
-                                        <a className="btn btn-primary">
+                                        <a className="btn nezo-btn">
                                             <i className="fas fa-rocket pr-2"></i>Launch</a>
                                     </Link>
                                 </div>

@@ -39,7 +39,7 @@ class BlogContent extends Component {
                                     </h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
                                     <Link href="#">
-                                        <a className="btn btn-primary">Read More</a>
+                                        <a className="btn nezo-btn">Read More</a>
                                     </Link>
                                 </div>
                             </div>
@@ -77,7 +77,7 @@ class BlogContent extends Component {
                                     </h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
                                     <Link href="#">
-                                        <a className="btn btn-primary">Read More</a>
+                                        <a className="btn nezo-btn">Read More</a>
                                     </Link>
                                 </div>
                             </div>
@@ -115,7 +115,7 @@ class BlogContent extends Component {
                                     </h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
                                     <Link href="#">
-                                        <a className="btn btn-primary">Read More</a>
+                                        <a className="btn nezo-btn">Read More</a>
                                     </Link>
                                 </div>
                             </div>
@@ -153,7 +153,7 @@ class BlogContent extends Component {
                                     </h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
                                     <Link href="#">
-                                        <a className="btn btn-primary">Read More</a>
+                                        <a className="btn nezo-btn">Read More</a>
                                     </Link>
                                 </div>
                             </div>
@@ -191,7 +191,7 @@ class BlogContent extends Component {
                                     </h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
                                     <Link href="#">
-                                        <a className="btn btn-primary">Read More</a>
+                                        <a className="btn nezo-btn">Read More</a>
                                     </Link>
                                 </div>
                             </div>
@@ -229,12 +229,12 @@ class BlogContent extends Component {
                                     </h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
                                     <Link href="#">
-                                        <a className="btn btn-primary">Read More</a>
+                                        <a className="btn nezo-btn">Read More</a>
                                     </Link>
                                 </div>
                             </div>
                         </div>
-                            
+
                         {/* Pagination */}
                         <div className="col-lg-12 col-md-12">
                             <div className="pagination-area">

@@ -92,19 +92,19 @@ class ContactForm extends Component {
     render() {
         return (
             <div className="contact-form">
-                <form 
-                    id="contactForm" 
+                <form
+                    id="contactForm"
                     onSubmit={this.onSubmit}
                 >
                     <div className="row">
                         <div className="col-lg-6 col-md-6">
                             <div className="form-group">
-                                <input 
-                                    type="text" 
+                                <input
+                                    type="text"
                                     name="name"
-                                    className="form-control" 
-                                    required data-error="Please enter your name" 
-                                    placeholder="Name" 
+                                    className="form-control"
+                                    required data-error="Please enter your name"
+                                    placeholder="Name"
                                     value={this.state.formFields.name}
                                     onChange={this.nameChangeHandler}
                                 />
@@ -113,13 +113,13 @@ class ContactForm extends Component {
 
                         <div className="col-lg-6 col-md-6">
                             <div className="form-group">
-                                <input 
-                                    type="email" 
+                                <input
+                                    type="email"
                                     name="email"
-                                    className="form-control" 
-                                    required 
-                                    data-error="Please enter your email" 
-                                    placeholder="Email" 
+                                    className="form-control"
+                                    required
+                                    data-error="Please enter your email"
+                                    placeholder="Email"
                                     value={this.state.formFields.email}
                                     onChange={this.emailChangeHandler}
                                 />
@@ -128,11 +128,11 @@ class ContactForm extends Component {
 
                         <div className="col-lg-6 col-md-6">
                             <div className="form-group">
-                                <input 
+                                <input
                                     type="text"
-                                    name="phone" 
-                                    className="form-control" 
-                                    placeholder="Phone" 
+                                    name="phone"
+                                    className="form-control"
+                                    placeholder="Phone"
                                     value={this.state.formFields.phone}
                                     onChange={this.phoneChangeHandler}
                                 />
@@ -141,11 +141,11 @@ class ContactForm extends Component {
 
                         <div className="col-lg-6 col-md-6">
                             <div className="form-group">
-                                <input 
-                                    type="text" 
+                                <input
+                                    type="text"
                                     name="subject"
-                                    className="form-control" 
-                                    placeholder="Subject" 
+                                    className="form-control"
+                                    placeholder="Subject"
                                     value={this.state.formFields.subject}
                                     onChange={this.subjectChangeHandler}
                                 />
@@ -154,15 +154,15 @@ class ContactForm extends Component {
 
                         <div className="col-lg-12 col-md-12">
                             <div className="form-group">
-                                <textarea 
-                                    name="message" 
-                                    className="form-control" 
-                                    id="message" 
-                                    cols="30" 
-                                    rows="6" 
-                                    required 
-                                    data-error="Write your message" 
-                                    placeholder="Your Message" 
+                                <textarea
+                                    name="message"
+                                    className="form-control"
+                                    id="message"
+                                    cols="30"
+                                    rows="6"
+                                    required
+                                    data-error="Write your message"
+                                    placeholder="Your Message"
                                     value={this.state.formFields.text}
                                     onChange={this.textChangeHandler}
                                 />
@@ -170,7 +170,7 @@ class ContactForm extends Component {
                         </div>
 
                         <div className="col-lg-12 col-md-12">
-                            <button type="submit" className="btn btn-primary"> <i className="fas fa-paper-plane pr-2"></i>Send Message</button>
+                            <button type="submit" className="btn nezo-btn"> <i className="fas fa-paper-plane pr-2"></i>Send Message</button>
                         </div>
                     </div>
                     {this.successMessage()}

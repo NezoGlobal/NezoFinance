@@ -3,7 +3,7 @@ import Link from '../../utils/ActiveLink';
 
 class Navbar extends Component {
 
-    // Navbar 
+    // Navbar
     _isMounted = false;
     state = {
         display: false,
@@ -48,13 +48,13 @@ class Navbar extends Component {
                                     </a>
                                 </Link>
 
-                                <button 
-                                    onClick={this.toggleNavbar} 
+                                <button
+                                    onClick={this.toggleNavbar}
                                     className={classTwo}
-                                    type="button" 
-                                    data-toggle="collapse" 
-                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                                    aria-expanded="false" 
+                                    type="button"
+                                    data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false"
                                     aria-label="Toggle navigation"
                                 >
                                     <span className="navbar-toggler-icon"></span>
@@ -186,7 +186,7 @@ class Navbar extends Component {
                                     <div>
                                         <div className="others-options">
                                             <Link href="https://app.uniswap.org/#/swap?outputCurrency=0xc82d0773f4fc9d717a56280ad2c78ea09afcbc09">
-                                                <a target="_blank" className="btn-med btn-primary" >BUY NZO</a>
+                                                <a target="_blank" className="btn-med nezo-btn" >BUY NZO</a>
                                             </Link>
                                         </div>
                                     </div>

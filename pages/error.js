@@ -15,7 +15,7 @@ class Error extends Component {
                                 <p>The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
 
                                 <Link href="/">
-                                    <a className="btn btn-primary">Go to Home</a>
+                                    <a className="btn nezo-btn">Go to Home</a>
                                 </Link>
                             </div>
                         </div>

@@ -15,7 +15,7 @@ class AccountCreateArea extends Component {
                         <div className="col-lg-4">
                             <div className="create-account">
                                 <Link href="../about-us#team">
-                                    <a className="btn btn-primary">
+                                    <a className="btn nezo-btn">
                                     <i className="fas fa-users pr-2"></i>View our team</a>
                                 </Link>
                             </div>

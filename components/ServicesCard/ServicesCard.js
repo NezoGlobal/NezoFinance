@@ -80,7 +80,7 @@ const data = {
   };
 
 
-  
+
 
 
 class ServicesCard extends Component {
@@ -231,9 +231,9 @@ export default ServicesCard;
 
     <div className="nezo-content btn">
         <Link href="/token">
-            <a className="btn btn-primary ">
+            <a className="btn nezo-btn ">
             <i className="fas fa-book-reader pr-2"></i>View More</a>
         </Link>
     </div>
-    
+
 */

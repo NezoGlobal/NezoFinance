@@ -11,11 +11,11 @@ class HomeContactArea extends Component {
                             <h2>Want to share your ideas?</h2>
                             <p>If you have an idea, we would love to hear about it.</p>
                         </div>
-                        
+
                         <div className="col-lg-4">
                             <div className="create-account">
                                 <Link href="/contact">
-                                    <a className="btn btn-primary">
+                                    <a className="btn nezo-btn">
                                         <i className="fas fa-pencil-alt pr-2"></i>Get in touch</a>
                                 </Link>
                             </div>

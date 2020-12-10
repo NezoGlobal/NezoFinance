@@ -47,7 +47,7 @@ class FunFacts extends Component {
                         <p>Don't hesitate to contact us</p>
 
                         <Link href="/contact">
-                            <a className="btn btn-primary">Contact Us</a>
+                            <a className="btn nezo-btn">Contact Us</a>
                         </Link>
                     </div>
 

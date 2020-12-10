@@ -22,8 +22,8 @@ class ComingSoon extends Component {
                                     <h1>This feature will be available soon</h1>
                                     <p>We are currently working on it.</p>
                                     <Link href="/">
-                                        <a className="btn btn-primary">
-                                            <i className="fas fa-home pr-2"></i>Home</a> 
+                                        <a className="btn nezo-btn">
+                                            <i className="fas fa-home pr-2"></i>Home</a>
                                     </Link>
                                 </div>
                             </div>
@@ -55,7 +55,7 @@ class ComingSoon extends Component {
                     </div>
                 </div>
 
-                
+
             </React.Fragment>
         );
     }
