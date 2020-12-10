@@ -1,0 +1,43 @@
+{
+    "name": "haiper",
+    "version": "1.7.0",
+    "description": "Haiper - React Next Online Banking & Payment Processing Template",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node server.js -p $PORT",
+        "build": "next build",
+        "start": "NODE_ENV=production node server.js -p $PORT"
+    },
+    "author": "EnvyTheme.com",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/runtime-corejs2": "^7.12.5",
+        "@nivo/pie": "^0.65.1",
+        "axios": "^0.19.2",
+        "body-parser": "^1.19.0",
+        "chart.js": "^2.9.4",
+        "express": "^4.17.1",
+        "next": "^10.0.1",
+        "next-images": "^1.6.2",
+        "next-seo": "^3.4.0",
+        "next-videos": "^1.4.0",
+        "node-sass": "^4.14.1",
+        "nodemailer": "^6.4.15",
+        "nodemailer-sendgrid-transport": "^0.2.0",
+        "react": "^16.14.0",
+        "react-accessible-accordion": "^3.3.3",
+        "react-chartjs-2": "^2.11.1",
+        "react-countdown-circle-timer": "^2.3.7",
+        "react-dom": "^16.14.0",
+        "react-image-lightbox": "^5.1.1",
+        "react-modal-video": "^1.2.6",
+        "react-owl-carousel3": "^2.2.5",
+        "react-visibility-sensor": "^5.1.1",
+        "react-wow": "^1.0.0",
+        "sass": "^1.29.0"
+    },
+    "devDependencies": {
+        "file-loader": "^6.2.0",
+        "url-loader": "^4.1.1"
+    }
+}
