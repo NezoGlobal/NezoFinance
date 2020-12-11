@@ -84,28 +84,8 @@ a {
 
 a:hover {
   color: #00a651;
-  text-decoration: none;
+  text-decoration: none!important;
 }
-
-/*.nezo-btn {*/
-/*  padding: 9px 16px;*/
-/*  color: #ffffff;*/
-/*  background: -webkit-gradient(linear, left top, right top, from(#00a651), to(#8dc63f));*/
-/*  background: linear-gradient(90deg, #00a651 0%, #8dc63f 100%);*/
-/*  border-radius: 30px;*/
-/*  -webkit-transition: 0.25s;*/
-/*  transition: 0.25s;*/
-/*}*/
-
-/*.nezo-btn-hover {*/
-/*  padding: 9px 16px;*/
-/*  color: #ffffff;*/
-/*  background: -webkit-gradient(linear, left top, right top, from(#00a651), to(#8dc63f));*/
-/*  background: linear-gradient(135deg, #8dc63f 0%, #00a651 100%);*/
-/*  border-radius: 30px;*/
-/*  -webkit-transition: 0.25s;*/
-/*  transition: 0.25s;*/
-/*}*/
 
 button {
   outline: 0 !important;
@@ -279,13 +259,13 @@ p:last-child {
 }
 
 .btn-about {
-  font-weight: 500;
-  border: none;
+  font-weight: 500!important;;
+  border: none!important;;
   margin-right: 8px;
-  padding: 14.5px 30px;
-  text-transform: uppercase;
-  font-size: 14px;
-  line-height: initial;
+  padding: 14.5px 30px!important;
+  text-transform: uppercase!important;;
+  font-size: 14px!important;;
+  line-height: initial!important;;
   border-radius: 30px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -299,23 +279,23 @@ p:last-child {
 }
 
 .nezo-btn {
-  background-color: transparent;
-  color: #ffffff;
+  background-color: transparent!important;
+  color: #ffffff!important;
 }
 
 .nezo-btn::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background: -webkit-gradient(linear, left top, right top, from(#00a651), to(#8dc63f));
-  background: linear-gradient(90deg, #00a651 0%, #8dc63f 100%);
-  border-radius: 30px;
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
+  content: ''!important;
+  position: absolute!important;
+  left: 0!important;
+  top: 0!important;
+  width: 100%!important;
+  height: 100%!important;
+  z-index: -1!important;
+  background: -webkit-gradient(linear, left top, right top, from(#00a651), to(#8dc63f))!important;
+  background: linear-gradient(90deg, #00a651 0%, #8dc63f 100%)!important;
+  border-radius: 30px!important;
+  -webkit-transition: 0.25s!important;
+  transition: 0.25s!important;
 }
 
 .nezo-btn::after {
@@ -1474,7 +1454,7 @@ Main Banner Area CSS
 }
 
 .banner-section-home {
-  height: 100vh;
+  margin-bottom: 80px;
   position: relative;
   z-index: 1;
   background-image: url(../../images/nezo-banner-1.png);
@@ -4493,11 +4473,11 @@ Account Create Area CSS
 }
 
 .account-create-content .nezo-btn::before {
-  background: #ffffff;
+  background: #ffffff!important;
 }
 
 .account-create-content .nezo-btn::after {
-  background: linear-gradient(90deg, #ffffff 0%, #f1f2f2 100%);
+  background: linear-gradient(90deg, #ffffff 0%, #f1f2f2 100%)!important;
 }
 
 .account-create-content .nezo-btn:hover, .account-create-content .nezo-btn:focus {

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import 'isomorphic-fetch';
+import emailjs from 'emailjs-com';
 
 class ContactForm extends Component {
 
@@ -18,27 +19,19 @@ class ContactForm extends Component {
 
     onSubmit = (e) => {
         e.preventDefault();
-        const data = this.state.formFields;
-        const respons = fetch('/api/contact', {
-            method: 'post',
-            headers: {
-                'Accept': 'application/json, text/plain, */*',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
-        }).then(res => {
-            console.log(res.data);
-            res.status === 200 ? this.setState({ submitted: true }) : ''
-            let formFields = Object.assign({}, this.state.formFields);
-            formFields.name = '';
-            formFields.email = '';
-            formFields.phone = '';
-            formFields.subject = '';
-            formFields.text = '';
-            this.setState({formFields});
-        });
-
-        console.log('respons', respons)
+        emailjs.sendForm('service_f9xutum', 'template_6yi56so', e.target, process.env.EMAILJS_USER_ID)
+            .then((result) => {
+                result.status === 200 ? this.setState({ submitted: true }) : ''
+                let formFields = Object.assign({}, this.state.formFields);
+                formFields.name = '';
+                formFields.email = '';
+                formFields.phone = '';
+                formFields.subject = '';
+                formFields.text = '';
+                this.setState({formFields});
+            }, (error) => {
+                console.log(error.text);
+            });
     }
 
 
