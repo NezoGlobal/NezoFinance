@@ -19,7 +19,7 @@ class ContactForm extends Component {
 
     onSubmit = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_f9xutum', 'template_6yi56so', e.target, process.env.EMAILJS_USER_ID)
+        emailjs.sendForm('service_f9xutum', 'template_6yi56so', e.target, process.env.NEXT_PUBLIC_EMAILJS_USER_ID)
             .then((result) => {
                 result.status === 200 ? this.setState({ submitted: true }) : ''
                 let formFields = Object.assign({}, this.state.formFields);
