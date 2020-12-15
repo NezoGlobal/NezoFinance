@@ -1464,8 +1464,6 @@ Main Banner Area CSS
   padding-top: 300px;
 }
 
-
-
 .hero-content {
   margin-top: -50px;
 }
@@ -2631,6 +2629,7 @@ Fees Table CSS
 .fees-table table thead th:nth-child(1) {
   text-align: left;
   padding-left: 30px;
+  display: flex;
 }
 
 .fees-table table tbody td {
@@ -6717,7 +6716,7 @@ Timeline component CSS   box-shadow: inset 15px 0 25px -15px rgba(0, 0, 0, .3), 
   .default-timeline .timeline .timeline-content {
     max-width: 100%;
     width: auto;
-    margin-left: 70px;
+    margin-left: 85px;
   }
   .default-timeline .timeline .timeline-item:nth-child(even) .timeline-content {
     float: none;
