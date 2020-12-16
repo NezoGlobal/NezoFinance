@@ -123,7 +123,7 @@ class Navbar extends Component {
                                                 
                                                 <li className="nav-item">
                                                     <Link href="/coming-soon" activeClassName="active">
-                                                        <a className="nav-link">Nezo Farm</a>
+                                                        <a className="nav-link">Nezo Lend</a>
                                                     </Link>
                                                 </li>
 
