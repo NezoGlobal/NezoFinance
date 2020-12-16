@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
-import { Line, Pie } from 'react-chartjs-2';
-import Link from 'next/link';
-
-
 
 class StakingCardContent extends Component {
     render() {
         return (
-            <React.Fragment>          
+            <React.Fragment>
 
                 <div className="services-area ptb-110 mb-80">
                     <div className="container-fluid p-0">

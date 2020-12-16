@@ -4,7 +4,6 @@ import Footer from '../components/Layouts/Footer';
 import Disclaimer from '../components/Disclaimer/Disclaimer'
 import PageBannerContent from '../components/PageBannerContent/PageBannerContent';
 
-
 class TermsOfUse extends Component {
     render() {
         return (

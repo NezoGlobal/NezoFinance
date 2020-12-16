@@ -1,14 +1,9 @@
 import React, { Component } from 'react';
-import Link from 'next/link';
-import ModalVideo from 'react-modal-video';
 
 class AboutContent extends Component {
 
     state = {
         isOpen: false,
-    }
-    openModal = () => {
-        this.setState({isOpen: true})
     }
 
     render() {

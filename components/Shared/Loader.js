@@ -5,8 +5,8 @@ class Loader extends Component {
         return (
             <div className={`preloader ${this.props.loading ? '' : 'preloader-deactivate'}`}>
                 <div className="loader">
-                    <div className="shadow"></div>
-                    <div className="box"></div>
+                    <div className="shadow"/>
+                    <div className="box"/>
                 </div>
             </div>
         );

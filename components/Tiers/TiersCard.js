@@ -20,7 +20,7 @@ class TiersCard extends Component {
                         </div>
                     </div>
 
-                        <div className="col-sm-3 col-sm-3">
+                        <div className="col-sm-4 col-sm-4">
                             <div className="tiers-box">
 
                                 <div className="tiers-header">
@@ -65,7 +65,7 @@ class TiersCard extends Component {
                             </div>
                         </div>
 
-                        <div className="col-sm-3 col-sm-3 offset-lg-0 offset-md-3">
+                        <div className="col-sm-4 col-sm-4">
                             <div className="tiers-box">
                                 <div className="tiers-header">
                                 <div className="icon bg-5c629e">
@@ -109,7 +109,7 @@ class TiersCard extends Component {
                             </div>
                         </div>
 
-                        <div className="col-sm-3 col-sm-3">
+                        <div className="col-sm-4 col-sm-4">
                             <div className="tiers-box">
                                 <div className="tiers-header">
                                 <div className="icon bg-5c629e">

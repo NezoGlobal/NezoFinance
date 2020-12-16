@@ -1763,6 +1763,7 @@
     padding-left: 25px;
   }
   .banner-section-home {
+    height: 50vh;
     position: relative;
     padding-top: 200px;
   }

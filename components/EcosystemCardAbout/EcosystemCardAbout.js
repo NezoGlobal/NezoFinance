@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import Link from 'next/link';
-
-
 
 class ServicesCard extends Component {
     render() {
@@ -20,37 +17,37 @@ class ServicesCard extends Component {
                                     <ul className="services-list">
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Multiple DeFi solutions
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
-                                                Interconnected features 
+                                                <i className="flaticon-check-mark"></i>
+                                                Interconnected features
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
-                                                Streamlined interface 
+                                                <i className="flaticon-check-mark"></i>
+                                                Streamlined interface
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
-                                                Optimized for interoperability 
+                                                <i className="flaticon-check-mark"></i>
+                                                Optimized for interoperability
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Multiple income streams
                                             </span>
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="flaticon-check-mark"></i> 
+                                                <i className="flaticon-check-mark"></i>
                                                 Powered by Nezo Token
                                             </span>
                                         </li>

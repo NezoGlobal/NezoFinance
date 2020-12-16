@@ -55,16 +55,9 @@ class TeamMemberContent extends Component {
 
                                     <ul className="social">
                                         <li>
-                                            <Link href="https://www.linkedin.com/in/gab-nezoglobal/">
+                                            <Link href="https://www.linkedin.com/in/yegor-gusakov-918ab413a/">
                                                 <a target="_blank">
                                                     <i className="fab fa-linkedin-in"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="https://twitter.com/Nezo_Global">
-                                                <a target="_blank">
-                                                    <i className="fab fa-twitter"></i>
                                                 </a>
                                             </Link>
                                         </li>
@@ -75,7 +68,7 @@ class TeamMemberContent extends Component {
                                     <h3>Yegor Gusakov</h3>
                                     <span>CTO</span>
                                     <span>CEO of &nbsp;
-                                            <Link href="https://qit.com/"> 
+                                            <Link href="https://www.linkedin.com/in/yegor-gusakov-918ab413a/"> 
                                             
                                             <a target="_blank" className="read-more-btn">QIT</a>
                                             </Link>
@@ -109,9 +102,9 @@ class TeamMemberContent extends Component {
                                 </div>
 
                                 <div className="member-content">
-                                    <h3>Kristoffer Santiago</h3>
+                                    <h3>Kristoffer S.</h3>
                                     <span>CMO</span>
-                                    <span>Marketing & Branding Expert</span>
+                                    <span>Marketing & Branding</span>
                                 </div>
                             </div>
                         </div>
@@ -159,14 +152,14 @@ class TeamMemberContent extends Component {
 
                                     <ul className="social">
                                         <li>
-                                            <Link href="https://www.linkedin.com/in/gab-nezoglobal/">
+                                            <Link href="https://www.linkedin.com/in/carlitomunoz/">
                                                 <a target="_blank">
                                                     <i className="fab fa-linkedin-in"></i>
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="https://twitter.com/Nezo_Global">
+                                            <Link href="https://twitter.com/CharlieStgoPR">
                                                 <a target="_blank">
                                                     <i className="fab fa-twitter"></i>
                                                 </a>
@@ -191,16 +184,9 @@ class TeamMemberContent extends Component {
 
                                     <ul className="social">
                                         <li>
-                                            <Link href="https://www.linkedin.com/in/gab-nezoglobal/">
+                                            <Link href="https://www.linkedin.com/in/antonio-mathias-k%C3%BChle-29b65413a/">
                                                 <a target="_blank">
                                                     <i className="fab fa-linkedin-in"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="https://twitter.com/Nezo_Global">
-                                                <a target="_blank">
-                                                    <i className="fab fa-twitter"></i>
                                                 </a>
                                             </Link>
                                         </li>

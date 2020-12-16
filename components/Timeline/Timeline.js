@@ -30,7 +30,7 @@ const timelineData = [
     },
     {
         title: 'Nezo Staking',
-        date: 'Q4 2020',
+        date: 'Q1 2021',
         description: 'Investors can stake their NZO Tokens and earn pre-defined rewards based on the amount staked, in a simple and secure way through a fully secure and audited smart contract.',
         link: '/staking',
     },
@@ -47,7 +47,7 @@ const timelineData = [
         link: '/coming-soon',
     },
     {
-        title: 'Nezo Farm',
+        title: 'Nezo Lend',
         date: 'Q2 2021',
         description: 'LPs will be able to delegate their idle assets and earn rewards. Providing liquidity to Nezo Lend will reward liquidity providers not only with an interest but also with NZO Tokens.',
         link: '/coming-soon',

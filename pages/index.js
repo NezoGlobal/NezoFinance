@@ -13,7 +13,6 @@ import HomeContactArea from '../components/HomeContactArea/HomeContactArea'
 import NezoDex from '../components/NezoDex/NezoDex';
 import Timeline from "../components/Timeline/Timeline";
 
-
 class Index extends Component {
     render() {
         return (

@@ -44,8 +44,8 @@ class PartnerContent extends Component {
                             <div className="single-partner-item">
                                 <Link href="#">
                                     <a>
-                                        <img src={require("../../images/partner-image/DistX_sm.png")} alt="Partner" />
-                                        <img src={require("../../images/partner-image/DistX.png")} alt="Partner" />
+                                        <img src={require("../../images/partner-image/Nezo_default_sm.png")} alt="Partner" />
+                                        <img src={require("../../images/partner-image/Nezo_default.png")} alt="Partner" />
                                     </a>
                                 </Link>
                             </div>

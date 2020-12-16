@@ -50,7 +50,7 @@ class TokenCard extends Component {
                                         <li>
                                             <span>
                                                 <i className="flaticon-check-mark"></i>
-                                                Weekly rewards
+                                                Daily rewards
                                             </span>
                                         </li>
                                         <li>
@@ -63,7 +63,7 @@ class TokenCard extends Component {
                                 </div>
                             </div>
 
-                            <div className="overview-image">
+                            <div className="overview-image ptb-70">
                                 <div className="image">
                                     <img src={require("../../images/Staking_image_sm.png")} alt="image" />
                                     <div className="circle-img">

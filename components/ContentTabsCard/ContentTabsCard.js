@@ -148,28 +148,28 @@ class ContentTabsCard extends Component {
 
                                             <ul className="list ptb-30">
                                                 <li>
-                                                    <i className="fas fa-square color-57689b"></i>
-                                                    Public Sale 25% (5m)
+                                                    <i className="fas fa-check color-00a651"></i>
+                                                    Passive interest from staking
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-square color-8ab0dd"></i>
-                                                    Team & Advisors 7.5% (1.5m)
+                                                    <i className="fas fa-check color-00a651"></i>
+                                                    Earn interest from lending
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-square color-677bb6"></i>
-                                                    Marketing & Bounty 10% (2m)
+                                                    <i className="fas fa-check color-00a651"></i>
+                                                    Farm NZO while lending
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-square color-98c2f4"></i>
-                                                    Nezo Vault 22.5% (4.5m)
+                                                    <i className="fas fa-check color-00a651"></i>
+                                                    Trade with lower fees
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-square color-7395c6"></i>
-                                                    Development 10% (2m)
+                                                    <i className="fas fa-check color-00a651"></i>
+                                                    Income from holding
                                                 </li>
                                                 <li>
-                                                    <i className="fas fa-square color-b2d6f9"></i>
-                                                    Staking Vault 25% (5m)
+                                                    <i className="fas fa-check color-00a651"></i>
+                                                    Early access on Nezo Pad
                                                 </li>
 
                                             </ul>

@@ -7,9 +7,6 @@ class ComingSoon extends Component {
     state = {
         isOpen: false,
     }
-    openModal = () => {
-        this.setState({isOpen: true})
-    }
 
     render() {
         return (

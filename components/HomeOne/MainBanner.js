@@ -1,13 +1,10 @@
 /*col-lg-7 col-md-12 p-0 banner image position*/
-
 import React, { Component } from 'react';
 import Link from 'next/link';
 import ReactWOW from 'react-wow'
 
-
 class MainBanner extends Component {
-
-
+    
     state = {
         days: '',
         hours: '',
@@ -21,7 +18,7 @@ class MainBanner extends Component {
         let now = new Date();
         let nowParse = (Date.parse(now) / 1000);
         let timeLeft = endTimeParse - nowParse;
-        let days = Math.floor(timeLeft / 86400); 
+        let days = Math.floor(timeLeft / 86400);
         let hours = Math.floor((timeLeft - (days * 86400)) / 3600);
         let minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
         let seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
@@ -34,7 +31,7 @@ class MainBanner extends Component {
     }
 
     componentDidMount(){
-        this.myInterval = setInterval(() => { 
+        this.myInterval = setInterval(() => {
             this.commingSoonTime();
         }, 1000);
     };

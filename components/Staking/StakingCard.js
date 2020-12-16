@@ -105,8 +105,9 @@ class StakingCard extends Component {
                                 </div>
                             </div>
                         </div>
+                    
 
-                        <div className="col-sm-3 col-sm-3 offset-lg-0 offset-md-3">
+                        <div className="col-sm-3 col-sm-3">
                             <div className="single-pricing-box">
                                 <div className="pricing-header">
                                     <h3>Silver Pool</h3>
