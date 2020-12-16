@@ -1462,10 +1462,7 @@ Main Banner Area CSS
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 300px;
-  height: 100vh;
 }
-
-
 
 .hero-content {
   margin-top: -50px;
@@ -6719,7 +6716,7 @@ Timeline component CSS   box-shadow: inset 15px 0 25px -15px rgba(0, 0, 0, .3), 
   .default-timeline .timeline .timeline-content {
     max-width: 100%;
     width: auto;
-    margin-left: 70px;
+    margin-left: 85px;
   }
   .default-timeline .timeline .timeline-item:nth-child(even) .timeline-content {
     float: none;
